@@ -1,0 +1,5476 @@
+{
+  "firstLayout": "",
+  "gdVersion": {
+    "build": 99,
+    "major": 4,
+    "minor": 0,
+    "revision": 0
+  },
+  "properties": {
+    "adaptGameResolutionAtRuntime": true,
+    "folderProject": false,
+    "orientation": "landscape",
+    "packageName": "com.example.gamename",
+    "pixelsRounding": false,
+    "projectUuid": "b0f55bed-8bd8-4797-98c7-59ee4093ab55",
+    "scaleMode": "linear",
+    "sizeOnStartupMode": "adaptWidth",
+    "templateSlug": "",
+    "useExternalSourceFiles": false,
+    "version": "1.0.0",
+    "name": "Project",
+    "description": "",
+    "author": "",
+    "windowWidth": 1920,
+    "windowHeight": 1080,
+    "latestCompilationDirectory": "",
+    "maxFPS": 60,
+    "minFPS": 20,
+    "verticalSync": false,
+    "platformSpecificAssets": {},
+    "loadingScreen": {
+      "backgroundColor": 0,
+      "backgroundFadeInDuration": 0.2,
+      "backgroundImageResourceName": "",
+      "gdevelopLogoStyle": "light",
+      "logoAndProgressFadeInDuration": 0.2,
+      "logoAndProgressLogoFadeInDelay": 0.2,
+      "minDuration": 1.5,
+      "progressBarColor": 16777215,
+      "progressBarHeight": 20,
+      "progressBarMaxWidth": 200,
+      "progressBarMinWidth": 40,
+      "progressBarWidthPercent": 30,
+      "showGDevelopSplash": true,
+      "showProgressBar": true
+    },
+    "authorIds": [],
+    "categories": [],
+    "playableDevices": [],
+    "extensionProperties": [],
+    "platforms": [
+      {
+        "name": "GDevelop JS platform"
+      }
+    ],
+    "currentPlatform": "GDevelop JS platform"
+  },
+  "resources": {
+    "resources": [
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/layers/1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\layers\\1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/layers/4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\layers\\4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/layers/2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\layers\\2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/layers/3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\layers\\3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/layers/5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\layers\\5.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/layers/9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\layers\\9.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/layers/6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\layers\\6.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/layers/7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\layers\\7.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/layers/8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\layers\\8.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/HUD/crosshair_outline_large.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\HUD\\crosshair_outline_large.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/Objects/rifle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\Objects\\rifle.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/HUD/icon_bullet_silver_short.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\HUD\\icon_bullet_silver_short.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/HUD/icon_bullet_empty_short.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\HUD\\icon_bullet_empty_short.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Assets/Sounds/gun-empty.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Assets\\Sounds\\gun-empty.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "Assets/Sounds/mixkit-game-gun-shot-1662.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Assets\\Sounds\\mixkit-game-gun-shot-1662.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "Assets/Sounds/gun-reload.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Assets\\Sounds\\gun-reload.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/Objects/target_colored.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\Objects\\target_colored.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/Objects/shot_blue_small.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\Objects\\shot_blue_small.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/HUD/icon_target.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\HUD\\icon_target.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/Font/numbers_small.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\Font\\numbers_small.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/Objects/duck_outline_yellow.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\Objects\\duck_outline_yellow.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/HUD/icon_duck.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\HUD\\icon_duck.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/HUD/heart.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\HUD\\heart.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/HUD/border.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\HUD\\border.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/HUD/text_dots.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\HUD\\text_dots.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/HUD/button.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\HUD\\button.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/HUD/text_score.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\HUD\\text_score.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Rubber Duck.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Rubber Duck.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/32x32 Pixel art items/Pixel Mart/Item/Rubber Duck.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/Objects/Rubber Duck.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\Objects\\Rubber Duck.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "Assets/Font/numbers.fnt",
+        "kind": "bitmapFont",
+        "metadata": "",
+        "name": "Assets\\Font\\numbers.fnt",
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/Font/numbers.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\Font\\numbers.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/3_game_background.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\3_game_background.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/HUD/text_gameover.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\HUD\\text_gameover.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/backgrounds/2_game_background.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\backgrounds\\2_game_background.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Assets/Sounds/John Carpenter - HALLOWEEN Theme.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Assets\\Sounds\\John Carpenter - HALLOWEEN Theme.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "Assets/Sounds/Videogame Lose Sound Effect HD - No Copyright.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Assets\\Sounds\\Videogame Lose Sound Effect HD - No Copyright.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewFile-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewFile-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/backgrounds/black.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\backgrounds\\black.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/HUD/crosshair_outline_small.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\HUD\\crosshair_outline_small.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/Objects/duck_zombie.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\Objects\\duck_zombie.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "Assets/Sounds/duck_sound.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Assets\\Sounds\\duck_sound.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/Objects/duck_ghost_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\Objects\\duck_ghost_1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/Objects/duck_ghost_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\Objects\\duck_ghost_2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/backgrounds/3_game_background.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\backgrounds\\3_game_background.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/Objects/duck_ghost_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\Objects\\duck_ghost_3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/Objects/duck_ghost_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\Objects\\duck_ghost_4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/Objects/duck_ghost_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\Objects\\duck_ghost_5.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/Objects/duck_ghost_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\Objects\\duck_ghost_6.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/Objects/duck_ghost_7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\Objects\\duck_ghost_7.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/HUD/icon_duck_ghost__resized.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\HUD\\icon_duck_ghost__resized.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/HUD/text_ready.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\HUD\\text_ready.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/HUD/Play_Unpressed.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\HUD\\Play_Unpressed.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/HUD/Replay_Unpressed.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\HUD\\Replay_Unpressed.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/HUD/keyboard_r.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\HUD\\keyboard_r.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/HUD/reload_text.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\HUD\\reload_text.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/HUD/leftMousebutton.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\HUD\\leftMousebutton.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/HUD/shootText.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\HUD\\shootText.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/HUD/title.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\HUD\\title.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/HUD/GameTitle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\HUD\\GameTitle.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "Assets/Sounds/button_clicked.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Assets\\Sounds\\button_clicked.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Assets/Sounds/Spooky - Halloween Background Music.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Assets\\Sounds\\Spooky - Halloween Background Music.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "Assets/Sounds/mouseOver.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Assets\\Sounds\\mouseOver.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/HUD/keyboard_esc.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\HUD\\keyboard_esc.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/HUD/quitText.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\HUD\\quitText.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/HUD/quitGameText.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\HUD\\quitGameText.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/HUD/keyboard_p.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\HUD\\keyboard_p.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/HUD/pauseText.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\HUD\\pauseText.png",
+        "smoothed": true,
+        "userAdded": true
+      }
+    ],
+    "resourceFolders": []
+  },
+  "objects": [],
+  "objectsGroups": [],
+  "variables": [],
+  "layouts": [
+    {
+      "b": 209,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "Main_32Menu",
+      "name": "Main Menu",
+      "oglFOV": 90,
+      "oglZFar": 500,
+      "oglZNear": 1,
+      "r": 209,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 209,
+      "uiSettings": {
+        "grid": false,
+        "gridType": "rectangular",
+        "gridWidth": 32,
+        "gridHeight": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridColor": 10401023,
+        "gridAlpha": 0.8,
+        "snap": false,
+        "zoomFactor": 0.4666666992187496,
+        "windowMask": false
+      },
+      "objectsGroups": [],
+      "variables": [],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 1080,
+          "layer": "Background",
+          "locked": false,
+          "name": "background",
+          "persistentUuid": "df7c545b-3596-4bfa-8caf-d986136c0e25",
+          "width": 1920,
+          "x": 0,
+          "y": 0,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 1080,
+          "layer": "BlackBG",
+          "locked": false,
+          "name": "black_bg",
+          "persistentUuid": "a4b9e46a-2c17-421c-a816-8c3f68b5acde",
+          "width": 1920,
+          "x": 0,
+          "y": 0,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 338,
+          "layer": "Box",
+          "locked": false,
+          "name": "black_bg",
+          "persistentUuid": "98a0da7f-0301-4ef5-864c-318b3cd9d00e",
+          "width": 468,
+          "x": 724,
+          "y": 328,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 203.64675903320312,
+          "layer": "HUD",
+          "locked": false,
+          "name": "PlayButton",
+          "persistentUuid": "d548cd06-a860-473f-aeea-7d03daec38ef",
+          "width": 405.2772216796875,
+          "x": 960,
+          "y": 800.127685546875,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 65.87977600097656,
+          "layer": "HUD",
+          "locked": false,
+          "name": "keyboard_R",
+          "persistentUuid": "1e96551c-5723-410f-91c8-92627f641d8d",
+          "width": 65.87977600097656,
+          "x": 827,
+          "y": 356,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 52.418556213378906,
+          "layer": "HUD",
+          "locked": false,
+          "name": "TextReload",
+          "persistentUuid": "c156ee3a-b320-4eec-bb0f-48a1eeaf243b",
+          "width": 166.47744750976562,
+          "x": 931.7276000976562,
+          "y": 361.1682434082031,
+          "zOrder": 7,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 65.87977600097656,
+          "layer": "HUD",
+          "locked": false,
+          "name": "LeftMouseButton",
+          "persistentUuid": "1f214819-2141-4dd1-869e-de617c6d4fe0",
+          "width": 43.91985321044922,
+          "x": 835.4622192382812,
+          "y": 460.689697265625,
+          "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 55.911495208740234,
+          "layer": "HUD",
+          "locked": false,
+          "name": "TextShoot",
+          "persistentUuid": "1599f852-7ec3-448f-b321-31ea13df8837",
+          "width": 152.20350646972656,
+          "x": 932.8256225585938,
+          "y": 461.9770812988281,
+          "zOrder": 9,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 197.26744079589844,
+          "layer": "HUD",
+          "locked": false,
+          "name": "Title",
+          "persistentUuid": "7f9fda38-0d56-4840-8e86-a78666870b80",
+          "width": 975,
+          "x": 960,
+          "y": 191.86627197265625,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 65.87977600097656,
+          "layer": "HUD",
+          "locked": false,
+          "name": "keyboardEsc",
+          "persistentUuid": "57011581-2763-48aa-b84e-98b2607f2754",
+          "width": 65.87977600097656,
+          "x": 827.0000610351562,
+          "y": 564.1202392578125,
+          "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 52.71983337402344,
+          "layer": "HUD",
+          "locked": false,
+          "name": "textQuit",
+          "persistentUuid": "953a2c57-15bf-42ad-99c4-f6e9cd502bf7",
+          "width": 114.2554931640625,
+          "x": 937.833740234375,
+          "y": 569.5982055664062,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [
+        {
+          "assetStoreId": "",
+          "height": 32,
+          "name": "background",
+          "tags": "",
+          "texture": "Assets\\backgrounds\\3_game_background.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
+        },
+        {
+          "assetStoreId": "",
+          "height": 32,
+          "name": "black_bg",
+          "tags": "",
+          "texture": "Assets\\backgrounds\\black.jpg",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
+        },
+        {
+          "assetStoreId": "",
+          "name": "Title",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Assets\\HUD\\GameTitle.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 213.20001220703125,
+                        "y": 42.899993896484375
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "PlayButton",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Assets\\HUD\\Play_Unpressed.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 101.10000610351562,
+                        "y": 47.5
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 102.70001220703125,
+                        "y": 46.699981689453125
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "keyboard_R",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Assets\\HUD\\keyboard_r.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "TextReload",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Assets\\HUD\\reload_text.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "LeftMouseButton",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Assets\\HUD\\leftMousebutton.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "TextShoot",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Assets\\HUD\\shootText.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "keyboardEsc",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Assets\\HUD\\keyboard_esc.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "textQuit",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Assets\\HUD\\quitGameText.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "TiledSpriteObject::SetOpacity"
+              },
+              "parameters": [
+                "black_bg",
+                "=",
+                "150"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlayMusic"
+              },
+              "parameters": [
+                "",
+                "Assets\\Sounds\\Spooky - Halloween Background Music.mp3",
+                "yes",
+                "30",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "PlayButton",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Tween::AddObjectScaleTween"
+                  },
+                  "parameters": [
+                    "PlayButton",
+                    "Tween",
+                    "\"Hover\"",
+                    "2.2",
+                    "2.2",
+                    "\"bouncePast\"",
+                    "100",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "Assets\\Sounds\\mouseOver.mp3",
+                    "",
+                    "10",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SourisBouton"
+                  },
+                  "parameters": [
+                    "",
+                    "Left"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Tween::AddObjectScaleTween"
+                  },
+                  "parameters": [
+                    "PlayButton",
+                    "Tween",
+                    "\"Press\"",
+                    "2.05",
+                    "2.05",
+                    "\"easeOutQuad\"",
+                    "50",
+                    "",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "MouseButtonReleased"
+                  },
+                  "parameters": [
+                    "",
+                    "Left"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Tween::AddObjectScaleTween"
+                  },
+                  "parameters": [
+                    "PlayButton",
+                    "Tween",
+                    "\"Hover\"",
+                    "2.2",
+                    "2.2",
+                    "\"bouncePast\"",
+                    "100",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "Assets\\Sounds\\button_clicked.mp3",
+                    "",
+                    "30",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Game Scene\"",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "PlayButton",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Tween::AddObjectScaleTween"
+              },
+              "parameters": [
+                "PlayButton",
+                "Tween",
+                "\"Default\"",
+                "2",
+                "2",
+                "\"bouncePast\"",
+                "100",
+                "",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Quit Game",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [],
+          "parameters": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "Escape"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Quit"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ]
+        }
+      ],
+      "layers": [
+        {
+          "ambientLightColorB": 8085232,
+          "ambientLightColorG": 134217728,
+          "ambientLightColorR": 1885434455,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "name": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": []
+        },
+        {
+          "ambientLightColorB": 40,
+          "ambientLightColorG": 167797870,
+          "ambientLightColorR": 1970238055,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "name": "Background",
+          "visibility": true,
+          "cameras": [],
+          "effects": []
+        },
+        {
+          "ambientLightColorB": 28,
+          "ambientLightColorG": 6024160,
+          "ambientLightColorR": 7113480,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "name": "BlackBG",
+          "visibility": true,
+          "cameras": [],
+          "effects": []
+        },
+        {
+          "ambientLightColorB": 8395792,
+          "ambientLightColorG": 6024160,
+          "ambientLightColorR": 7539904,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "name": "Box",
+          "visibility": true,
+          "cameras": [],
+          "effects": []
+        },
+        {
+          "ambientLightColorB": 25,
+          "ambientLightColorG": 6024160,
+          "ambientLightColorR": 7750776,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "name": "HUD",
+          "visibility": true,
+          "cameras": [],
+          "effects": []
+        }
+      ],
+      "behaviorsSharedData": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ]
+    },
+    {
+      "b": 209,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "Game_32Scene",
+      "name": "Game Scene",
+      "oglFOV": 90,
+      "oglZFar": 500,
+      "oglZNear": 1,
+      "r": 209,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "Duck Shooter",
+      "v": 209,
+      "uiSettings": {
+        "grid": false,
+        "gridType": "rectangular",
+        "gridWidth": 32,
+        "gridHeight": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridColor": 10401023,
+        "gridAlpha": 0.8,
+        "snap": false,
+        "zoomFactor": 0.2833333648681636,
+        "windowMask": false
+      },
+      "objectsGroups": [],
+      "variables": [],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 1080,
+          "layer": "",
+          "locked": false,
+          "name": "Background",
+          "persistentUuid": "8b52ed77-18ec-406b-9c46-a966e00fdfa8",
+          "width": 1920,
+          "x": 0,
+          "y": 0,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 1080,
+          "layer": "Woods",
+          "locked": false,
+          "name": "Woods",
+          "persistentUuid": "fb292a59-c869-4593-95c9-5a8edd9ae2a9",
+          "width": 1920,
+          "x": 0,
+          "y": 0,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 1080,
+          "layer": "Sky",
+          "locked": false,
+          "name": "Clouds",
+          "persistentUuid": "a0831406-12dc-43a1-84d2-b2247c8c9616",
+          "width": 1920,
+          "x": 0,
+          "y": 0,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 1080,
+          "layer": "Sky",
+          "locked": false,
+          "name": "Moon",
+          "persistentUuid": "7dceb0e1-e3cf-4852-86d9-5586ebc1e16a",
+          "width": 1920,
+          "x": 0,
+          "y": 0,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 1080,
+          "layer": "Objects",
+          "locked": false,
+          "name": "Fence",
+          "persistentUuid": "28521cd5-32c5-4c34-a14b-327d33cbac7a",
+          "width": 1920,
+          "x": 0,
+          "y": 0,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 1080,
+          "layer": "Ground",
+          "locked": false,
+          "name": "Ground",
+          "persistentUuid": "e0435e58-894f-4577-9298-37a690e44795",
+          "width": 1920,
+          "x": 0,
+          "y": 0,
+          "zOrder": 7,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 1080,
+          "layer": "Objects",
+          "locked": false,
+          "name": "Graves",
+          "persistentUuid": "143ab769-3e6a-4536-bdbf-7924b334b785",
+          "width": 1920,
+          "x": 0,
+          "y": 0,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 1080,
+          "layer": "Objects",
+          "locked": false,
+          "name": "Ghost",
+          "persistentUuid": "67f11db4-bcd5-485e-bc38-ab5974d71175",
+          "width": 1920,
+          "x": 0,
+          "y": 0,
+          "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 1080,
+          "layer": "Objects",
+          "locked": false,
+          "name": "ZombieHands",
+          "persistentUuid": "af797f0a-c2f0-4942-ac25-705353dfa1d8",
+          "width": 1920,
+          "x": 0,
+          "y": 0,
+          "zOrder": 9,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 100,
+          "layer": "Cursor",
+          "locked": false,
+          "name": "Crosshair",
+          "persistentUuid": "4866203a-aa49-42f8-9bd2-b3bdbf05bc75",
+          "width": 100,
+          "x": 929,
+          "y": 523,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 438,
+          "layer": "Rifle",
+          "locked": false,
+          "name": "Rifle",
+          "persistentUuid": "a29c11f0-d510-4418-9415-0f30959b6161",
+          "width": 200,
+          "x": 860,
+          "y": 750,
+          "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 68.57142639160156,
+          "layer": "Bullets",
+          "locked": false,
+          "name": "Bullets",
+          "persistentUuid": "857a2b6c-3675-4b60-b0f6-1ad755eeb0f8",
+          "width": 40,
+          "x": 1462,
+          "y": 990,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "id",
+              "type": "number",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 68.57142639160156,
+          "layer": "Bullets",
+          "locked": false,
+          "name": "Bullets",
+          "persistentUuid": "63b0c588-2062-4ade-b47e-1dbb0751b5a5",
+          "width": 40,
+          "x": 1537,
+          "y": 990,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "id",
+              "type": "number",
+              "value": 2
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 68.57142639160156,
+          "layer": "Bullets",
+          "locked": false,
+          "name": "Bullets",
+          "persistentUuid": "88ece6ac-85f9-4a8e-9dbd-1e8120ffa974",
+          "width": 40,
+          "x": 1612,
+          "y": 990,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "id",
+              "type": "number",
+              "value": 3
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 68.57142639160156,
+          "layer": "Bullets",
+          "locked": false,
+          "name": "Bullets",
+          "persistentUuid": "24f86062-92bd-452c-a192-2c4f81ae36e6",
+          "width": 40,
+          "x": 1687,
+          "y": 990,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "id",
+              "type": "number",
+              "value": 4
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 68.57142639160156,
+          "layer": "Bullets",
+          "locked": false,
+          "name": "Bullets",
+          "persistentUuid": "5b0fa310-48a0-4f59-b560-4f937d96ca19",
+          "width": 40,
+          "x": 1762,
+          "y": 990,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "id",
+              "type": "number",
+              "value": 5
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 100,
+          "layer": "HUD",
+          "locked": false,
+          "name": "HUD_Target",
+          "persistentUuid": "d8316d11-a208-43c1-ae45-bbeac5fe3f73",
+          "width": 100,
+          "x": 49,
+          "y": 41,
+          "zOrder": 13,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 96,
+          "layer": "HUD",
+          "locked": false,
+          "name": "HUD_Score_Target",
+          "persistentUuid": "86b4d52c-2454-457f-84f3-2dc944850dcf",
+          "width": 197,
+          "x": 174,
+          "y": 49,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 81,
+          "layer": "Life",
+          "locked": false,
+          "name": "Hearts",
+          "persistentUuid": "16e57553-9f23-493f-a8c1-94e42cc0d948",
+          "width": 81,
+          "x": 114,
+          "y": 990,
+          "zOrder": 15,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "id",
+              "type": "number",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 81,
+          "layer": "Life",
+          "locked": false,
+          "name": "Hearts",
+          "persistentUuid": "335d1b4d-fd3d-4bcc-b333-f109e95002eb",
+          "width": 81,
+          "x": 229,
+          "y": 990,
+          "zOrder": 15,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "id",
+              "type": "number",
+              "value": 2
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 81,
+          "layer": "Life",
+          "locked": false,
+          "name": "Hearts",
+          "persistentUuid": "85588f12-87da-460f-a5b4-e529449b4676",
+          "width": 81,
+          "x": 344,
+          "y": 990,
+          "zOrder": 15,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "id",
+              "type": "number",
+              "value": 3
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 81,
+          "layer": "Life",
+          "locked": false,
+          "name": "Hearts",
+          "persistentUuid": "f208f387-4e21-46c3-8f21-800c4c2eee03",
+          "width": 81,
+          "x": 574,
+          "y": 990,
+          "zOrder": 15,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "id",
+              "type": "number",
+              "value": 5
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 81,
+          "layer": "Life",
+          "locked": false,
+          "name": "Hearts",
+          "persistentUuid": "be14c081-25a1-41b3-85e8-3df0895ec274",
+          "width": 81,
+          "x": 459,
+          "y": 990,
+          "zOrder": 15,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "id",
+              "type": "number",
+              "value": 4
+            }
+          ]
+        }
+      ],
+      "objects": [
+        {
+          "assetStoreId": "",
+          "height": 1080,
+          "name": "Background",
+          "tags": "",
+          "texture": "Assets\\layers\\1.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 1920,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
+        },
+        {
+          "assetStoreId": "",
+          "height": 32,
+          "name": "Woods",
+          "tags": "",
+          "texture": "Assets\\layers\\4.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
+        },
+        {
+          "assetStoreId": "",
+          "height": 32,
+          "name": "Clouds",
+          "tags": "",
+          "texture": "Assets\\layers\\2.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
+        },
+        {
+          "assetStoreId": "",
+          "height": 32,
+          "name": "Moon",
+          "tags": "",
+          "texture": "Assets\\layers\\3.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
+        },
+        {
+          "assetStoreId": "",
+          "height": 32,
+          "name": "Fence",
+          "tags": "",
+          "texture": "Assets\\layers\\5.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
+        },
+        {
+          "assetStoreId": "",
+          "height": 32,
+          "name": "Ground",
+          "tags": "",
+          "texture": "Assets\\layers\\9.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
+        },
+        {
+          "assetStoreId": "",
+          "height": 32,
+          "name": "Graves",
+          "tags": "",
+          "texture": "Assets\\layers\\6.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
+        },
+        {
+          "assetStoreId": "",
+          "height": 32,
+          "name": "Ghost",
+          "tags": "",
+          "texture": "Assets\\layers\\7.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
+        },
+        {
+          "assetStoreId": "",
+          "height": 32,
+          "name": "ZombieHands",
+          "tags": "",
+          "texture": "Assets\\layers\\8.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
+        },
+        {
+          "assetStoreId": "",
+          "name": "Crosshair",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "normal",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Assets\\HUD\\crosshair_outline_large.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 27,
+                        "y": 27
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "press",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Assets\\HUD\\crosshair_outline_small.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 22,
+                        "y": 22
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "Rifle",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [
+            {
+              "name": "maxBullets",
+              "type": "number",
+              "value": 5
+            },
+            {
+              "name": "numBullets",
+              "type": "number",
+              "value": 5
+            }
+          ],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Assets\\Objects\\rifle.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "Bullets",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [
+            {
+              "name": "id",
+              "type": "number",
+              "value": 0
+            }
+          ],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "silver",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Assets\\HUD\\icon_bullet_silver_short.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "empty",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Assets\\HUD\\icon_bullet_empty_short.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "Target",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [
+            {
+              "name": "id",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "score",
+              "type": "string",
+              "value": "1"
+            }
+          ],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "ghost_1",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Assets\\Objects\\duck_ghost_1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 84.15001678466797,
+                            "y": 73.25000762939453
+                          },
+                          {
+                            "x": 92.35001373291016,
+                            "y": 100.45001983642578
+                          },
+                          {
+                            "x": 92.35001373291016,
+                            "y": 111.85001373291016
+                          },
+                          {
+                            "x": 79.55000305175781,
+                            "y": 109.45001983642578
+                          },
+                          {
+                            "x": 73.55000305175781,
+                            "y": 113.45001983642578
+                          },
+                          {
+                            "x": 68.15000915527344,
+                            "y": 112.85001373291016
+                          },
+                          {
+                            "x": 61.15000534057617,
+                            "y": 107.05001068115234
+                          },
+                          {
+                            "x": 53.950008392333984,
+                            "y": 112.65001678466797
+                          },
+                          {
+                            "x": 43.35000228881836,
+                            "y": 106.65001678466797
+                          },
+                          {
+                            "x": 38.75,
+                            "y": 109.45001983642578
+                          },
+                          {
+                            "x": 29.350000381469727,
+                            "y": 102.05001068115234
+                          },
+                          {
+                            "x": 22.750001907348633,
+                            "y": 89.05001068115234
+                          },
+                          {
+                            "x": 17.95000457763672,
+                            "y": 71.25000762939453
+                          },
+                          {
+                            "x": 13.34999942779541,
+                            "y": 69.45000457763672
+                          },
+                          {
+                            "x": 7.349998950958252,
+                            "y": 73.05000305175781
+                          },
+                          {
+                            "x": 2.549999237060547,
+                            "y": 71.6500015258789
+                          },
+                          {
+                            "x": 0,
+                            "y": 65.85000610351562
+                          },
+                          {
+                            "x": 1.5499993562698364,
+                            "y": 54.850006103515625
+                          },
+                          {
+                            "x": 8.950004577636719,
+                            "y": 43.650001525878906
+                          },
+                          {
+                            "x": 18.75,
+                            "y": 38.64999771118164
+                          },
+                          {
+                            "x": 25.350000381469727,
+                            "y": 21.65000343322754
+                          },
+                          {
+                            "x": 35.55000305175781,
+                            "y": 8.45000171661377
+                          },
+                          {
+                            "x": 50.55000686645508,
+                            "y": 0.4500015676021576
+                          },
+                          {
+                            "x": 62.55000686645508,
+                            "y": 2.6500024795532227
+                          },
+                          {
+                            "x": 68.55000305175781,
+                            "y": 11.250001907348633
+                          },
+                          {
+                            "x": 71.75,
+                            "y": 23.65000343322754
+                          },
+                          {
+                            "x": 74.94999694824219,
+                            "y": 39.85000228881836
+                          },
+                          {
+                            "x": 78.15000915527344,
+                            "y": 44.45000457763672
+                          },
+                          {
+                            "x": 85.95000457763672,
+                            "y": 40.250003814697266
+                          },
+                          {
+                            "x": 92.55001068115234,
+                            "y": 40.250003814697266
+                          },
+                          {
+                            "x": 97.95000457763672,
+                            "y": 46.850006103515625
+                          },
+                          {
+                            "x": 102,
+                            "y": 65.45000457763672
+                          },
+                          {
+                            "x": 101.35001373291016,
+                            "y": 72.45000457763672
+                          },
+                          {
+                            "x": 95.75000762939453,
+                            "y": 74.85000610351562
+                          },
+                          {
+                            "x": 90.35001373291016,
+                            "y": 73.25000762939453
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "ghost_2",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Assets\\Objects\\duck_ghost_2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 89.4920425415039,
+                            "y": 93.49092864990234
+                          },
+                          {
+                            "x": 90.8011474609375,
+                            "y": 102.4363784790039
+                          },
+                          {
+                            "x": 88.1829605102539,
+                            "y": 108.76365661621094
+                          },
+                          {
+                            "x": 76.18295288085938,
+                            "y": 114
+                          },
+                          {
+                            "x": 76.83750915527344,
+                            "y": 107.23637390136719
+                          },
+                          {
+                            "x": 72.0374984741211,
+                            "y": 102.4363784790039
+                          },
+                          {
+                            "x": 63.74658966064453,
+                            "y": 101.34546661376953
+                          },
+                          {
+                            "x": 46.510231018066406,
+                            "y": 102.00000762939453
+                          },
+                          {
+                            "x": 32.110225677490234,
+                            "y": 97.4181900024414
+                          },
+                          {
+                            "x": 19.892047882080078,
+                            "y": 84.54546356201172
+                          },
+                          {
+                            "x": 16.619321823120117,
+                            "y": 75.38182830810547
+                          },
+                          {
+                            "x": 15.964776992797852,
+                            "y": 68.83637237548828
+                          },
+                          {
+                            "x": 11.819318771362305,
+                            "y": 61.854549407958984
+                          },
+                          {
+                            "x": 6.146594524383545,
+                            "y": 56.18182373046875
+                          },
+                          {
+                            "x": 0.2556834816932678,
+                            "y": 45.05454635620117
+                          },
+                          {
+                            "x": 0.2556834816932678,
+                            "y": 32.836368560791016
+                          },
+                          {
+                            "x": 3.092045545578003,
+                            "y": 26.509090423583984
+                          },
+                          {
+                            "x": 7.89204740524292,
+                            "y": 24.327272415161133
+                          },
+                          {
+                            "x": 12.473862648010254,
+                            "y": 28.036365509033203
+                          },
+                          {
+                            "x": 17.49205207824707,
+                            "y": 37.418182373046875
+                          },
+                          {
+                            "x": 22.29204559326172,
+                            "y": 20.836362838745117
+                          },
+                          {
+                            "x": 32.546592712402344,
+                            "y": 7.309092998504639
+                          },
+                          {
+                            "x": 41.710227966308594,
+                            "y": 1.854547142982483
+                          },
+                          {
+                            "x": 54.58296203613281,
+                            "y": 0.5454553961753845
+                          },
+                          {
+                            "x": 65.4920425415039,
+                            "y": 7.309092998504639
+                          },
+                          {
+                            "x": 70.94658660888672,
+                            "y": 18.000009536743164
+                          },
+                          {
+                            "x": 72.69204711914062,
+                            "y": 28.909095764160156
+                          },
+                          {
+                            "x": 73.56478118896484,
+                            "y": 36.76363754272461
+                          },
+                          {
+                            "x": 81.63750457763672,
+                            "y": 33.05454635620117
+                          },
+                          {
+                            "x": 86.87387084960938,
+                            "y": 29.563640594482422
+                          },
+                          {
+                            "x": 91.89205932617188,
+                            "y": 31.527271270751953
+                          },
+                          {
+                            "x": 94,
+                            "y": 39.81818771362305
+                          },
+                          {
+                            "x": 93.2011489868164,
+                            "y": 48.98181915283203
+                          },
+                          {
+                            "x": 87.96477508544922,
+                            "y": 57.49091339111328
+                          },
+                          {
+                            "x": 81.41932678222656,
+                            "y": 62.72727966308594
+                          },
+                          {
+                            "x": 72.91023254394531,
+                            "y": 63.60000228881836
+                          },
+                          {
+                            "x": 72.25569152832031,
+                            "y": 76.69091796875
+                          },
+                          {
+                            "x": 78.8011474609375,
+                            "y": 84.32727813720703
+                          },
+                          {
+                            "x": 85.56478118896484,
+                            "y": 88.69091796875
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "ghost_3",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Assets\\Objects\\duck_ghost_3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 79.80001068115234,
+                            "y": 74.0181884765625
+                          },
+                          {
+                            "x": 86.78182220458984,
+                            "y": 89.94546508789062
+                          },
+                          {
+                            "x": 95.50910186767578,
+                            "y": 103.69091796875
+                          },
+                          {
+                            "x": 64.30909729003906,
+                            "y": 118.09091186523438
+                          },
+                          {
+                            "x": 51.21818923950195,
+                            "y": 119.40001678466797
+                          },
+                          {
+                            "x": 37.47272872924805,
+                            "y": 112.85456085205078
+                          },
+                          {
+                            "x": 25.03636932373047,
+                            "y": 101.2909164428711
+                          },
+                          {
+                            "x": 17.18181800842285,
+                            "y": 92.1272964477539
+                          },
+                          {
+                            "x": 4.963639736175537,
+                            "y": 95.6181869506836
+                          },
+                          {
+                            "x": 0,
+                            "y": 80.345458984375
+                          },
+                          {
+                            "x": 5.836362361907959,
+                            "y": 67.69091033935547
+                          },
+                          {
+                            "x": 9.763641357421875,
+                            "y": 48.49091339111328
+                          },
+                          {
+                            "x": 14.781822204589844,
+                            "y": 27.9818172454834
+                          },
+                          {
+                            "x": 24.163639068603516,
+                            "y": 12.054546356201172
+                          },
+                          {
+                            "x": 39.654544830322266,
+                            "y": 2.89091157913208
+                          },
+                          {
+                            "x": 52.74545669555664,
+                            "y": 0.9272719621658325
+                          },
+                          {
+                            "x": 64.74545288085938,
+                            "y": 5.07273006439209
+                          },
+                          {
+                            "x": 73.25456237792969,
+                            "y": 14.018181800842285
+                          },
+                          {
+                            "x": 76.52728271484375,
+                            "y": 26.6727294921875
+                          },
+                          {
+                            "x": 76.9636459350586,
+                            "y": 39.54545974731445
+                          },
+                          {
+                            "x": 77.18182373046875,
+                            "y": 57.65454864501953
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "ghost_4",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Assets\\Objects\\duck_ghost_4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 9.56100082397461,
+                            "y": 82.32001495361328
+                          },
+                          {
+                            "x": 5.91300106048584,
+                            "y": 69.45600891113281
+                          },
+                          {
+                            "x": 0.15300072729587555,
+                            "y": 64.84800720214844
+                          },
+                          {
+                            "x": 0,
+                            "y": 41.616004943847656
+                          },
+                          {
+                            "x": 2.07300066947937,
+                            "y": 33.552001953125
+                          },
+                          {
+                            "x": 6.681000232696533,
+                            "y": 30.09600067138672
+                          },
+                          {
+                            "x": 15.129003524780273,
+                            "y": 32.592002868652344
+                          },
+                          {
+                            "x": 22.809003829956055,
+                            "y": 32.97600555419922
+                          },
+                          {
+                            "x": 29.72100257873535,
+                            "y": 27.215999603271484
+                          },
+                          {
+                            "x": 37.78499984741211,
+                            "y": 16.272001266479492
+                          },
+                          {
+                            "x": 48.92100143432617,
+                            "y": 6.672001838684082
+                          },
+                          {
+                            "x": 65.4330062866211,
+                            "y": 0
+                          },
+                          {
+                            "x": 76.76100158691406,
+                            "y": 3.792001485824585
+                          },
+                          {
+                            "x": 81.94500732421875,
+                            "y": 12.240001678466797
+                          },
+                          {
+                            "x": 82.90501403808594,
+                            "y": 20.880001068115234
+                          },
+                          {
+                            "x": 81.56100463867188,
+                            "y": 33.167999267578125
+                          },
+                          {
+                            "x": 84.82501220703125,
+                            "y": 41.42399978637695
+                          },
+                          {
+                            "x": 91.35299682617188,
+                            "y": 43.53600311279297
+                          },
+                          {
+                            "x": 98.84100341796875,
+                            "y": 42.96000671386719
+                          },
+                          {
+                            "x": 103.44900512695312,
+                            "y": 43.53600311279297
+                          },
+                          {
+                            "x": 105.75299835205078,
+                            "y": 49.104000091552734
+                          },
+                          {
+                            "x": 105.75299835205078,
+                            "y": 62.544002532958984
+                          },
+                          {
+                            "x": 101.33700561523438,
+                            "y": 80.2080078125
+                          },
+                          {
+                            "x": 95.0009994506836,
+                            "y": 93.64801025390625
+                          },
+                          {
+                            "x": 86.36100006103516,
+                            "y": 100.36800384521484
+                          },
+                          {
+                            "x": 84.82501220703125,
+                            "y": 88.84800720214844
+                          },
+                          {
+                            "x": 78.10501098632812,
+                            "y": 89.61601257324219
+                          },
+                          {
+                            "x": 75.8010025024414,
+                            "y": 84.2400131225586
+                          },
+                          {
+                            "x": 70.42501068115234,
+                            "y": 98.25601196289062
+                          },
+                          {
+                            "x": 65.04900360107422,
+                            "y": 103.44000244140625
+                          },
+                          {
+                            "x": 57.36900329589844,
+                            "y": 104.0160140991211
+                          },
+                          {
+                            "x": 55.449005126953125,
+                            "y": 112.4640121459961
+                          },
+                          {
+                            "x": 49.30500411987305,
+                            "y": 119.95201873779297
+                          },
+                          {
+                            "x": 40.856998443603516,
+                            "y": 112.65601348876953
+                          },
+                          {
+                            "x": 38.169002532958984,
+                            "y": 104.2080078125
+                          },
+                          {
+                            "x": 37.4010009765625,
+                            "y": 96.33601379394531
+                          },
+                          {
+                            "x": 30.681001663208008,
+                            "y": 99.21601104736328
+                          },
+                          {
+                            "x": 24.72900390625,
+                            "y": 93.45600891113281
+                          },
+                          {
+                            "x": 18.969003677368164,
+                            "y": 82.32001495361328
+                          },
+                          {
+                            "x": 14.55300521850586,
+                            "y": 85.39200592041016
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "ghost_5",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Assets\\Objects\\duck_ghost_5.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 10.93333625793457,
+                            "y": 67.0666732788086
+                          },
+                          {
+                            "x": 0,
+                            "y": 62.088890075683594
+                          },
+                          {
+                            "x": 8.977776527404785,
+                            "y": 38.80000305175781
+                          },
+                          {
+                            "x": 15.022224426269531,
+                            "y": 31.155555725097656
+                          },
+                          {
+                            "x": 16.9777774810791,
+                            "y": 25.644447326660156
+                          },
+                          {
+                            "x": 25.866666793823242,
+                            "y": 12.311113357543945
+                          },
+                          {
+                            "x": 37.24444580078125,
+                            "y": 3.59999942779541
+                          },
+                          {
+                            "x": 49.866668701171875,
+                            "y": 0.5777774453163147
+                          },
+                          {
+                            "x": 63.377784729003906,
+                            "y": 5.200002193450928
+                          },
+                          {
+                            "x": 72.62222290039062,
+                            "y": 13.911112785339355
+                          },
+                          {
+                            "x": 77.06666564941406,
+                            "y": 27.422225952148438
+                          },
+                          {
+                            "x": 79.3777847290039,
+                            "y": 45.37778091430664
+                          },
+                          {
+                            "x": 82.57778930664062,
+                            "y": 67.24444580078125
+                          },
+                          {
+                            "x": 86.84444427490234,
+                            "y": 84.66667175292969
+                          },
+                          {
+                            "x": 92,
+                            "y": 95.15556335449219
+                          },
+                          {
+                            "x": 90.57778930664062,
+                            "y": 100.84444427490234
+                          },
+                          {
+                            "x": 79.91112518310547,
+                            "y": 103.51111602783203
+                          },
+                          {
+                            "x": 75.4666748046875,
+                            "y": 105.82222747802734
+                          },
+                          {
+                            "x": 72.80001068115234,
+                            "y": 112.57778930664062
+                          },
+                          {
+                            "x": 67.64445495605469,
+                            "y": 113.82222747802734
+                          },
+                          {
+                            "x": 61.06666564941406,
+                            "y": 108.66667175292969
+                          },
+                          {
+                            "x": 57.51111602783203,
+                            "y": 106.53334045410156
+                          },
+                          {
+                            "x": 48.62222671508789,
+                            "y": 116.48889923095703
+                          },
+                          {
+                            "x": 42.222225189208984,
+                            "y": 116.66667175292969
+                          },
+                          {
+                            "x": 37.066673278808594,
+                            "y": 109.3777847290039
+                          },
+                          {
+                            "x": 26.400005340576172,
+                            "y": 114.00000762939453
+                          },
+                          {
+                            "x": 21.06667137145996,
+                            "y": 111.68890380859375
+                          },
+                          {
+                            "x": 19.64444351196289,
+                            "y": 104.04444885253906
+                          },
+                          {
+                            "x": 8.977776527404785,
+                            "y": 105.46668243408203
+                          },
+                          {
+                            "x": 4,
+                            "y": 102.44445037841797
+                          },
+                          {
+                            "x": 4.711113929748535,
+                            "y": 96.57778930664062
+                          },
+                          {
+                            "x": 8.977776527404785,
+                            "y": 91.42223358154297
+                          },
+                          {
+                            "x": 12.355557441711426,
+                            "y": 83.60000610351562
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "ghost_6",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Assets\\Objects\\duck_ghost_6.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 28.271743774414062,
+                            "y": 81.80870056152344
+                          },
+                          {
+                            "x": 18.045654296875,
+                            "y": 69.0782699584961
+                          },
+                          {
+                            "x": 15.541303634643555,
+                            "y": 53.426090240478516
+                          },
+                          {
+                            "x": 3.2282602787017822,
+                            "y": 56.55652618408203
+                          },
+                          {
+                            "x": 0,
+                            "y": 41.32174301147461
+                          },
+                          {
+                            "x": 2.8108713626861572,
+                            "y": 30.678260803222656
+                          },
+                          {
+                            "x": 11.993483543395996,
+                            "y": 21.913047790527344
+                          },
+                          {
+                            "x": 23.054353713989258,
+                            "y": 20.0347843170166
+                          },
+                          {
+                            "x": 30.984786987304688,
+                            "y": 19.200002670288086
+                          },
+                          {
+                            "x": 40.79348373413086,
+                            "y": 12.730437278747559
+                          },
+                          {
+                            "x": 56.02826690673828,
+                            "y": 3.9652175903320312
+                          },
+                          {
+                            "x": 73.97608184814453,
+                            "y": 1.043479084968567
+                          },
+                          {
+                            "x": 91.71522521972656,
+                            "y": 3.1304357051849365
+                          },
+                          {
+                            "x": 106.5326156616211,
+                            "y": 12.104348182678223
+                          },
+                          {
+                            "x": 115.50653076171875,
+                            "y": 26.50434684753418
+                          },
+                          {
+                            "x": 118,
+                            "y": 39.65217971801758
+                          },
+                          {
+                            "x": 114.88043975830078,
+                            "y": 54.46957015991211
+                          },
+                          {
+                            "x": 107.99347686767578,
+                            "y": 72.83478546142578
+                          },
+                          {
+                            "x": 104.2369613647461,
+                            "y": 80.34783935546875
+                          },
+                          {
+                            "x": 105.07174682617188,
+                            "y": 84.10435485839844
+                          },
+                          {
+                            "x": 112.3760986328125,
+                            "y": 86.19131469726562
+                          },
+                          {
+                            "x": 114.045654296875,
+                            "y": 92.66087341308594
+                          },
+                          {
+                            "x": 96.72392272949219,
+                            "y": 93.28697204589844
+                          },
+                          {
+                            "x": 86.91521453857422,
+                            "y": 87.65218353271484
+                          },
+                          {
+                            "x": 85.24565887451172,
+                            "y": 79.72174072265625
+                          },
+                          {
+                            "x": 87.3326187133789,
+                            "y": 68.0347900390625
+                          },
+                          {
+                            "x": 79.81956481933594,
+                            "y": 67.82609558105469
+                          },
+                          {
+                            "x": 79.40217590332031,
+                            "y": 74.29566192626953
+                          },
+                          {
+                            "x": 80.4456558227539,
+                            "y": 89.53044128417969
+                          },
+                          {
+                            "x": 73.14130401611328,
+                            "y": 103.30435180664062
+                          },
+                          {
+                            "x": 61.66305160522461,
+                            "y": 107.47826385498047
+                          },
+                          {
+                            "x": 57.07174301147461,
+                            "y": 93.07827758789062
+                          },
+                          {
+                            "x": 60.202178955078125,
+                            "y": 81.39131927490234
+                          },
+                          {
+                            "x": 43.506526947021484,
+                            "y": 86.40000915527344
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "ghost_7",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Assets\\Objects\\duck_ghost_7.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 43.24565505981445,
+                            "y": 111.60002136230469
+                          },
+                          {
+                            "x": 26.341310501098633,
+                            "y": 109.72175598144531
+                          },
+                          {
+                            "x": 10.063041687011719,
+                            "y": 98.86956787109375
+                          },
+                          {
+                            "x": 1.9239163398742676,
+                            "y": 81.96522521972656
+                          },
+                          {
+                            "x": 0,
+                            "y": 63.80869674682617
+                          },
+                          {
+                            "x": 5.889128684997559,
+                            "y": 37.51304626464844
+                          },
+                          {
+                            "x": 21.7500057220459,
+                            "y": 16.017391204833984
+                          },
+                          {
+                            "x": 30.3065242767334,
+                            "y": 4.539130210876465
+                          },
+                          {
+                            "x": 37.610870361328125,
+                            "y": 0.15652413666248322
+                          },
+                          {
+                            "x": 43.036964416503906,
+                            "y": 4.330437660217285
+                          },
+                          {
+                            "x": 44.28913497924805,
+                            "y": 8.713043212890625
+                          },
+                          {
+                            "x": 59.10653305053711,
+                            "y": 13.513046264648438
+                          },
+                          {
+                            "x": 65.15870666503906,
+                            "y": 17.68695831298828
+                          },
+                          {
+                            "x": 69.12390899658203,
+                            "y": 23.321739196777344
+                          },
+                          {
+                            "x": 82,
+                            "y": 24.365217208862305
+                          },
+                          {
+                            "x": 81.6456527709961,
+                            "y": 31.87826156616211
+                          },
+                          {
+                            "x": 67.45435333251953,
+                            "y": 52.74782943725586
+                          },
+                          {
+                            "x": 54.51522445678711,
+                            "y": 74.66087341308594
+                          },
+                          {
+                            "x": 52.0108757019043,
+                            "y": 84.67826843261719
+                          },
+                          {
+                            "x": 54.09783172607422,
+                            "y": 92.81741333007812
+                          },
+                          {
+                            "x": 62.02827453613281,
+                            "y": 98.86956787109375
+                          },
+                          {
+                            "x": 65.15870666503906,
+                            "y": 107.42610168457031
+                          },
+                          {
+                            "x": 55.35000228881836,
+                            "y": 120
+                          },
+                          {
+                            "x": 53.88913345336914,
+                            "y": 110.5565414428711
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "Shot",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Assets\\Objects\\shot_blue_small.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "HUD_Target",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Assets\\HUD\\icon_duck_ghost__resized.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "HUD_Score_Target",
+          "tags": "",
+          "type": "BitmapText::BitmapTextObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "text": "999",
+            "opacity": 255,
+            "scale": 1.5,
+            "fontSize": 20,
+            "tint": "255;255;255",
+            "bitmapFontResourceName": "Assets\\Font\\numbers.fnt",
+            "textureAtlasResourceName": "Assets\\Font\\numbers.png",
+            "align": "center",
+            "wordWrap": true
+          }
+        },
+        {
+          "assetStoreId": "",
+          "name": "Hearts",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [
+            {
+              "name": "id",
+              "type": "number",
+              "value": 0
+            }
+          ],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "red",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Assets\\HUD\\heart.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "empty",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Assets\\HUD\\border.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "events": [
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Initialization",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [],
+          "parameters": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlayMusic"
+              },
+              "parameters": [
+                "",
+                "Assets\\Sounds\\John Carpenter - HALLOWEEN Theme.mp3",
+                "yes",
+                "30",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Scoring System",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "BitmapText::BitmapTextObject::SetText"
+                  },
+                  "parameters": [
+                    "HUD_Score_Target",
+                    "=",
+                    "GlobalVariableString(score_target)"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Mouse Movement",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "MettreXY"
+                  },
+                  "parameters": [
+                    "Crosshair",
+                    "=",
+                    "MouseX(\"Cursor\")",
+                    "=",
+                    "MouseY(\"Cursor\")"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CenterX"
+                  },
+                  "parameters": [
+                    "Crosshair",
+                    ">",
+                    "960"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "FlipX"
+                  },
+                  "parameters": [
+                    "Rifle",
+                    "yes"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CenterX"
+                  },
+                  "parameters": [
+                    "Crosshair",
+                    "<",
+                    "960"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "FlipX"
+                  },
+                  "parameters": [
+                    "Rifle",
+                    "no"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Shooting & Reloading",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "MouseButtonPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "Left"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetAnimationName"
+                  },
+                  "parameters": [
+                    "Crosshair",
+                    "\"press\""
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "VarObjet"
+                      },
+                      "parameters": [
+                        "Rifle",
+                        "numBullets",
+                        "=",
+                        "0"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "Assets\\Sounds\\gun-empty.wav",
+                        "",
+                        "30",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "VarObjet"
+                      },
+                      "parameters": [
+                        "Rifle",
+                        "numBullets",
+                        ">",
+                        "0"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "Assets\\Sounds\\mixkit-game-gun-shot-1662.mp3",
+                        "",
+                        "30",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarObjet"
+                      },
+                      "parameters": [
+                        "Rifle",
+                        "numBullets",
+                        "-",
+                        "1"
+                      ]
+                    }
+                  ],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "CollisionPoint"
+                          },
+                          "parameters": [
+                            "Target",
+                            "Crosshair.X()",
+                            "Crosshair.Y()"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "Create"
+                          },
+                          "parameters": [
+                            "",
+                            "Shot",
+                            "Crosshair.X()",
+                            "Crosshair.Y()",
+                            "Target.Layer()"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "LinkedObjects::LinkObjects"
+                          },
+                          "parameters": [
+                            "",
+                            "Shot",
+                            "Target"
+                          ]
+                        }
+                      ],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "LinkedObjects::PickObjectsLinkedTo"
+                              },
+                              "parameters": [
+                                "",
+                                "Shot",
+                                "Target",
+                                ""
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "Delete"
+                              },
+                              "parameters": [
+                                "Target",
+                                ""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "ModVarGlobal"
+                              },
+                              "parameters": [
+                                "score_target",
+                                "+",
+                                "Target.Variable(score)"
+                              ]
+                            }
+                          ],
+                          "events": [
+                            {
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "Delete"
+                                  },
+                                  "parameters": [
+                                    "Shot",
+                                    ""
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::ForEach",
+                      "object": "Bullets",
+                      "conditions": [],
+                      "actions": [],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "VarObjet"
+                              },
+                              "parameters": [
+                                "Rifle",
+                                "numBullets",
+                                ">=",
+                                "Bullets.Variable(id)"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "SetAnimationName"
+                              },
+                              "parameters": [
+                                "Bullets",
+                                "\"silver\""
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "inverted": true,
+                                "value": "VarObjet"
+                              },
+                              "parameters": [
+                                "Rifle",
+                                "numBullets",
+                                ">=",
+                                "Bullets.Variable(id)"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "SetAnimationName"
+                              },
+                              "parameters": [
+                                "Bullets",
+                                "\"empty\""
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "MouseButtonReleased"
+                  },
+                  "parameters": [
+                    "",
+                    "Left"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetAnimationName"
+                  },
+                  "parameters": [
+                    "Crosshair",
+                    "\"normal\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "r"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "VarObjet"
+                  },
+                  "parameters": [
+                    "Rifle",
+                    "numBullets",
+                    "<",
+                    "5"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "Assets\\Sounds\\gun-reload.wav",
+                    "",
+                    "30",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarObjet"
+                  },
+                  "parameters": [
+                    "Rifle",
+                    "numBullets",
+                    "=",
+                    "Rifle.Variable(maxBullets)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetAnimationName"
+                  },
+                  "parameters": [
+                    "Bullets",
+                    "\"silver\""
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Target & Heart Spawner",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "DepartScene"
+                  },
+                  "parameters": [
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ResetTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"TargetCreate\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResetTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"TargetDelete\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "lifePoints",
+                    "=",
+                    "5"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "Timer"
+                  },
+                  "parameters": [
+                    "",
+                    "RandomInRange(1,2)",
+                    "\"TargetCreate\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "id",
+                    "+",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "Target",
+                    "RandomInRange(60,1700)",
+                    "RandomInRange(80,700)",
+                    "\"Targets\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ChangeAnimation"
+                  },
+                  "parameters": [
+                    "Target",
+                    "=",
+                    "RandomInRange(1,7)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Opacity"
+                  },
+                  "parameters": [
+                    "Target",
+                    "=",
+                    "200"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ChangeScale"
+                  },
+                  "parameters": [
+                    "Target",
+                    "=",
+                    "1.5"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResetTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"TargetCreate\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarObjet"
+                  },
+                  "parameters": [
+                    "Target",
+                    "id",
+                    "=",
+                    "Variable(id)"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NbObjet"
+                  },
+                  "parameters": [
+                    "Target",
+                    ">",
+                    "1"
+                  ]
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "Timer"
+                      },
+                      "parameters": [
+                        "",
+                        "2",
+                        "\"TargetDelete\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "VarObjet"
+                      },
+                      "parameters": [
+                        "Target",
+                        "id",
+                        "=",
+                        "Variable(id)-1"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "Target",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "Assets\\Sounds\\duck_sound.mp3",
+                        "",
+                        "30",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarGlobal"
+                      },
+                      "parameters": [
+                        "lifePoints",
+                        "-",
+                        "1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ResetTimer"
+                      },
+                      "parameters": [
+                        "",
+                        "\"TargetDelete\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ResetTimer"
+                      },
+                      "parameters": [
+                        "",
+                        "\"TargetCreate\""
+                      ]
+                    }
+                  ],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [],
+                      "actions": []
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::ForEach",
+                  "object": "Hearts",
+                  "conditions": [],
+                  "actions": [],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "VarGlobal"
+                          },
+                          "parameters": [
+                            "lifePoints",
+                            ">=",
+                            "Hearts.Variable(id)"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetAnimationName"
+                          },
+                          "parameters": [
+                            "Hearts",
+                            "\"red\""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "inverted": true,
+                            "value": "VarGlobal"
+                          },
+                          "parameters": [
+                            "lifePoints",
+                            ">=",
+                            "Hearts.Variable(id)"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetAnimationName"
+                          },
+                          "parameters": [
+                            "Hearts",
+                            "\"empty\""
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Game Over",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "lifePoints",
+                    "=",
+                    "0"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Game Over\"",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Quit Game",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [],
+          "parameters": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "Escape"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Quit"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ]
+        }
+      ],
+      "layers": [
+        {
+          "ambientLightColorB": 32,
+          "ambientLightColorG": 0,
+          "ambientLightColorR": 0,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "name": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": []
+        },
+        {
+          "ambientLightColorB": 83886080,
+          "ambientLightColorG": 6023280,
+          "ambientLightColorR": 7864144,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "name": "Sky",
+          "visibility": true,
+          "cameras": [],
+          "effects": []
+        },
+        {
+          "ambientLightColorB": 7865416,
+          "ambientLightColorG": 6023280,
+          "ambientLightColorR": 7855656,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "name": "Woods",
+          "visibility": true,
+          "cameras": [],
+          "effects": []
+        },
+        {
+          "ambientLightColorB": 83886080,
+          "ambientLightColorG": 6023280,
+          "ambientLightColorR": 7864144,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "name": "Objects",
+          "visibility": true,
+          "cameras": [],
+          "effects": []
+        },
+        {
+          "ambientLightColorB": 83886080,
+          "ambientLightColorG": 6023280,
+          "ambientLightColorR": 7864144,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "name": "Ground",
+          "visibility": true,
+          "cameras": [],
+          "effects": []
+        },
+        {
+          "ambientLightColorB": 33,
+          "ambientLightColorG": 6023280,
+          "ambientLightColorR": 7037912,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "name": "Targets",
+          "visibility": true,
+          "cameras": [],
+          "effects": []
+        },
+        {
+          "ambientLightColorB": 24,
+          "ambientLightColorG": 6023280,
+          "ambientLightColorR": 7511936,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "name": "Rifle",
+          "visibility": true,
+          "cameras": [],
+          "effects": []
+        },
+        {
+          "ambientLightColorB": 7249072,
+          "ambientLightColorG": 6023280,
+          "ambientLightColorR": 7257112,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "name": "Bullets",
+          "visibility": true,
+          "cameras": [],
+          "effects": []
+        },
+        {
+          "ambientLightColorB": 7983672,
+          "ambientLightColorG": 6024160,
+          "ambientLightColorR": 7747416,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "name": "Life",
+          "visibility": true,
+          "cameras": [],
+          "effects": []
+        },
+        {
+          "ambientLightColorB": 7858408,
+          "ambientLightColorG": 6023280,
+          "ambientLightColorR": 6967368,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "name": "Cursor",
+          "visibility": true,
+          "cameras": [],
+          "effects": []
+        },
+        {
+          "ambientLightColorB": 26,
+          "ambientLightColorG": 6024160,
+          "ambientLightColorR": 7774032,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "name": "HUD",
+          "visibility": true,
+          "cameras": [],
+          "effects": []
+        }
+      ],
+      "behaviorsSharedData": []
+    },
+    {
+      "b": 255,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "Game_32Over",
+      "name": "Game Over",
+      "oglFOV": 90,
+      "oglZFar": 500,
+      "oglZNear": 1,
+      "r": 255,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 255,
+      "uiSettings": {
+        "grid": false,
+        "gridType": "rectangular",
+        "gridWidth": 32,
+        "gridHeight": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridColor": 10401023,
+        "gridAlpha": 0.8,
+        "snap": false,
+        "zoomFactor": 0.33333336486816356,
+        "windowMask": false
+      },
+      "objectsGroups": [],
+      "variables": [],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 109.00003051757812,
+          "layer": "",
+          "locked": false,
+          "name": "HUD_Dots",
+          "persistentUuid": "34f2e791-306b-4a07-82f6-05e719644702",
+          "width": 64.28207397460938,
+          "x": 968,
+          "y": 533,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 238.0009765625,
+          "layer": "",
+          "locked": false,
+          "name": "HUD_PlayAgain_Button",
+          "persistentUuid": "829bed8b-1333-433e-b583-14814610aae6",
+          "width": 473.6455078125,
+          "x": 960,
+          "y": 750.666015625,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 114.42046356201172,
+          "layer": "",
+          "locked": false,
+          "name": "HUD_Score",
+          "persistentUuid": "a718de03-31af-4067-bee7-30d19f66bb50",
+          "width": 345.0492248535156,
+          "x": 867.943115234375,
+          "y": 476.94000244140625,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 115.61701965332031,
+          "layer": "",
+          "locked": false,
+          "name": "HUD_Score_Total",
+          "persistentUuid": "77a69e9b-e367-475d-80ad-967235e7a829",
+          "width": 286,
+          "x": 1061,
+          "y": 469.9999694824219,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 79,
+          "layer": "",
+          "locked": false,
+          "name": "PlayAgain_Text",
+          "persistentUuid": "171982fd-e34e-469d-a68f-97b82e7b3d16",
+          "width": 374.42425537109375,
+          "x": 775.5757446289062,
+          "y": 716,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 1080,
+          "layer": "Background",
+          "locked": true,
+          "name": "Background",
+          "persistentUuid": "48feedf9-46f3-4a63-a88b-2bcff5f94e11",
+          "width": 1920,
+          "x": 0,
+          "y": 0,
+          "zOrder": 7,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 226.46107482910156,
+          "layer": "",
+          "locked": false,
+          "name": "HUD_GameOver",
+          "persistentUuid": "f72f8312-3184-4051-9008-335b39aa27ea",
+          "width": 1097.7071533203125,
+          "x": 960,
+          "y": 257.3984680175781,
+          "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 1080,
+          "layer": "Background",
+          "locked": false,
+          "name": "black_bg",
+          "persistentUuid": "cd72f4fa-a6c0-4420-820b-17b42f30d911",
+          "width": 1920,
+          "x": 0,
+          "y": 0,
+          "zOrder": 9,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [
+        {
+          "assetStoreId": "",
+          "name": "HUD_Dots",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Assets\\HUD\\text_dots.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 11.5,
+                        "y": 19.5
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "HUD_Duck",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Assets\\HUD\\icon_duck.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "HUD_PlayAgain_Button",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Assets\\HUD\\Replay_Unpressed.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 98.5,
+                        "y": 32
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 96.42857360839844,
+                        "y": 40.4538688659668
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "HUD_Score",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Assets\\HUD\\text_score.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 193.5,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "HUD_Score_Total",
+          "tags": "",
+          "type": "BitmapText::BitmapTextObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "text": "000",
+            "opacity": 255,
+            "scale": 2,
+            "fontSize": 20,
+            "tint": "255;255;255",
+            "bitmapFontResourceName": "Assets\\Font\\numbers.fnt",
+            "textureAtlasResourceName": "Assets\\Font\\numbers.png",
+            "align": "left",
+            "wordWrap": true
+          }
+        },
+        {
+          "assetStoreId": "",
+          "height": 32,
+          "name": "Background",
+          "tags": "",
+          "texture": "Assets\\backgrounds\\3_game_background.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
+        },
+        {
+          "assetStoreId": "",
+          "name": "HUD_GameOver",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Assets\\HUD\\text_gameover.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 173.5,
+                        "y": 36.199981689453125
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "height": 32,
+          "name": "black_bg",
+          "tags": "",
+          "texture": "Assets\\backgrounds\\black.jpg",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
+        }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "Assets\\Sounds\\Videogame Lose Sound Effect HD - No Copyright.mp3",
+                "",
+                "30",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BitmapText::BitmapTextObject::SetText"
+              },
+              "parameters": [
+                "HUD_Score_Total",
+                "=",
+                "ToString(GlobalVariable(score_target))"
+              ]
+            },
+            {
+              "type": {
+                "value": "TiledSpriteObject::SetOpacity"
+              },
+              "parameters": [
+                "black_bg",
+                "=",
+                "150"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "HUD_PlayAgain_Button",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Tween::AddObjectScaleTween"
+                  },
+                  "parameters": [
+                    "HUD_PlayAgain_Button",
+                    "Tween",
+                    "\"Hover\"",
+                    "2.2",
+                    "2.2",
+                    "\"bouncePast\"",
+                    "100",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "Assets\\Sounds\\mouseOver.mp3",
+                    "",
+                    "10",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SourisBouton"
+                  },
+                  "parameters": [
+                    "",
+                    "Left"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Tween::AddObjectScaleTween"
+                  },
+                  "parameters": [
+                    "HUD_PlayAgain_Button",
+                    "Tween",
+                    "\"Press\"",
+                    "2.05",
+                    "2.05",
+                    "\"easeOutQuad\"",
+                    "50",
+                    "",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "MouseButtonReleased"
+                  },
+                  "parameters": [
+                    "",
+                    "Left"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Tween::AddObjectScaleTween"
+                  },
+                  "parameters": [
+                    "HUD_PlayAgain_Button",
+                    "Tween",
+                    "\"Hover\"",
+                    "2.2",
+                    "2.2",
+                    "\"bouncePast\"",
+                    "100",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "Assets\\Sounds\\button_clicked.mp3",
+                    "",
+                    "30",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "score_target",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Game Scene\"",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "HUD_PlayAgain_Button",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Tween::AddObjectScaleTween"
+              },
+              "parameters": [
+                "HUD_PlayAgain_Button",
+                "Tween",
+                "\"Default\"",
+                "2",
+                "2",
+                "\"bouncePast\"",
+                "100",
+                "",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Quit Game",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [],
+          "parameters": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "Escape"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Quit"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ]
+        }
+      ],
+      "layers": [
+        {
+          "ambientLightColorB": 7820536,
+          "ambientLightColorG": 6024160,
+          "ambientLightColorR": 7472016,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "name": "Background",
+          "visibility": true,
+          "cameras": [],
+          "effects": []
+        },
+        {
+          "ambientLightColorB": 6024180,
+          "ambientLightColorG": 16777216,
+          "ambientLightColorR": 0,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "name": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": []
+        }
+      ],
+      "behaviorsSharedData": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ]
+    }
+  ],
+  "externalEvents": [],
+  "eventsFunctionsExtensions": [],
+  "externalLayouts": [],
+  "externalSourceFiles": []
+}
